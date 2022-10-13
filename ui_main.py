@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainovvmid.ui'
+## Form generated from reading UI file 'mainexAGwH.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -178,26 +178,98 @@ class Ui_MainWindow(object):
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
         self.stackedWidget = QStackedWidget(self.frame_pages)
         self.stackedWidget.setObjectName(u"stackedWidget")
-        self.stackedWidget.setStyleSheet(u"background-color:rgb(136, 153, 166);	\n"
-"color: rgb(220, 220, 220);")
+        self.stackedWidget.setStyleSheet(u"")
         self.page_1 = QWidget()
         self.page_1.setObjectName(u"page_1")
-        self.page_1.setStyleSheet(u"background-color:rgb(136, 153, 166);	\n"
+        self.page_1.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
 "color: rgb(220, 220, 220);")
         self.verticalLayout_7 = QVBoxLayout(self.page_1)
-        self.verticalLayout_7.setSpacing(0)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
-        self.verticalLayout_7.setContentsMargins(0, 0, 0, 0)
-        self.label_1 = QLabel(self.page_1)
-        self.label_1.setObjectName(u"label_1")
+        self.frame_header1 = QFrame(self.page_1)
+        self.frame_header1.setObjectName(u"frame_header1")
+        self.frame_header1.setMinimumSize(QSize(0, 50))
+        self.frame_header1.setMaximumSize(QSize(16777215, 50))
+        self.frame_header1.setBaseSize(QSize(0, 50))
+        self.frame_header1.setFrameShape(QFrame.StyledPanel)
+        self.frame_header1.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_13 = QVBoxLayout(self.frame_header1)
+        self.verticalLayout_13.setObjectName(u"verticalLayout_13")
+        self.label_3 = QLabel(self.frame_header1)
+        self.label_3.setObjectName(u"label_3")
         font1 = QFont()
         font1.setPointSize(20)
-        self.label_1.setFont(font1)
-        self.label_1.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
+        self.label_3.setFont(font1)
+        self.label_3.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
 "color: rgb(220, 220, 220);")
-        self.label_1.setAlignment(Qt.AlignCenter)
 
-        self.verticalLayout_7.addWidget(self.label_1)
+        self.verticalLayout_13.addWidget(self.label_3)
+
+
+        self.verticalLayout_7.addWidget(self.frame_header1)
+
+        self.frame_body1 = QFrame(self.page_1)
+        self.frame_body1.setObjectName(u"frame_body1")
+        self.frame_body1.setFrameShape(QFrame.StyledPanel)
+        self.frame_body1.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_10 = QVBoxLayout(self.frame_body1)
+        self.verticalLayout_10.setSpacing(0)
+        self.verticalLayout_10.setObjectName(u"verticalLayout_10")
+        self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
+        self.frame_content1 = QFrame(self.frame_body1)
+        self.frame_content1.setObjectName(u"frame_content1")
+        self.frame_content1.setFrameShape(QFrame.StyledPanel)
+        self.frame_content1.setFrameShadow(QFrame.Raised)
+
+        self.verticalLayout_10.addWidget(self.frame_content1)
+
+        self.frame_footer1 = QFrame(self.frame_body1)
+        self.frame_footer1.setObjectName(u"frame_footer1")
+        self.frame_footer1.setMinimumSize(QSize(0, 50))
+        self.frame_footer1.setMaximumSize(QSize(16777215, 50))
+        self.frame_footer1.setBaseSize(QSize(0, 50))
+        self.frame_footer1.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer1.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_5 = QHBoxLayout(self.frame_footer1)
+        self.horizontalLayout_5.setSpacing(0)
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
+        self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
+        self.frame_footer_left1 = QFrame(self.frame_footer1)
+        self.frame_footer_left1.setObjectName(u"frame_footer_left1")
+        self.frame_footer_left1.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer_left1.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_5.addWidget(self.frame_footer_left1)
+
+        self.frame_footer_right1 = QFrame(self.frame_footer1)
+        self.frame_footer_right1.setObjectName(u"frame_footer_right1")
+        self.frame_footer_right1.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer_right1.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_6 = QHBoxLayout(self.frame_footer_right1)
+        self.horizontalLayout_6.setSpacing(0)
+        self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
+        self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
+        self.btn_upload1 = QPushButton(self.frame_footer_right1)
+        self.btn_upload1.setObjectName(u"btn_upload1")
+        self.btn_upload1.setMinimumSize(QSize(0, 40))
+        self.btn_upload1.setMaximumSize(QSize(150, 16777215))
+
+        self.horizontalLayout_6.addWidget(self.btn_upload1)
+
+        self.btn_generate1 = QPushButton(self.frame_footer_right1)
+        self.btn_generate1.setObjectName(u"btn_generate1")
+        self.btn_generate1.setMinimumSize(QSize(0, 40))
+        self.btn_generate1.setMaximumSize(QSize(200, 16777215))
+
+        self.horizontalLayout_6.addWidget(self.btn_generate1)
+
+
+        self.horizontalLayout_5.addWidget(self.frame_footer_right1)
+
+
+        self.verticalLayout_10.addWidget(self.frame_footer1)
+
+
+        self.verticalLayout_7.addWidget(self.frame_body1)
 
         self.stackedWidget.addWidget(self.page_1)
         self.page_2 = QWidget()
@@ -205,17 +277,91 @@ class Ui_MainWindow(object):
         self.page_2.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
 "color: rgb(220, 220, 220);")
         self.verticalLayout_6 = QVBoxLayout(self.page_2)
-        self.verticalLayout_6.setSpacing(0)
         self.verticalLayout_6.setObjectName(u"verticalLayout_6")
-        self.verticalLayout_6.setContentsMargins(0, 0, 0, 0)
-        self.label_2 = QLabel(self.page_2)
+        self.frame_head2 = QFrame(self.page_2)
+        self.frame_head2.setObjectName(u"frame_head2")
+        self.frame_head2.setMinimumSize(QSize(0, 50))
+        self.frame_head2.setMaximumSize(QSize(16777215, 50))
+        self.frame_head2.setBaseSize(QSize(50, 0))
+        self.frame_head2.setFrameShape(QFrame.StyledPanel)
+        self.frame_head2.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_14 = QVBoxLayout(self.frame_head2)
+        self.verticalLayout_14.setObjectName(u"verticalLayout_14")
+        self.label_2 = QLabel(self.frame_head2)
         self.label_2.setObjectName(u"label_2")
         self.label_2.setFont(font1)
         self.label_2.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
 "color: rgb(220, 220, 220);")
         self.label_2.setAlignment(Qt.AlignCenter)
 
-        self.verticalLayout_6.addWidget(self.label_2)
+        self.verticalLayout_14.addWidget(self.label_2)
+
+
+        self.verticalLayout_6.addWidget(self.frame_head2)
+
+        self.frame_body2 = QFrame(self.page_2)
+        self.frame_body2.setObjectName(u"frame_body2")
+        self.frame_body2.setFrameShape(QFrame.StyledPanel)
+        self.frame_body2.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_9 = QVBoxLayout(self.frame_body2)
+        self.verticalLayout_9.setSpacing(0)
+        self.verticalLayout_9.setObjectName(u"verticalLayout_9")
+        self.verticalLayout_9.setContentsMargins(0, 0, 0, 0)
+        self.frame_content2 = QFrame(self.frame_body2)
+        self.frame_content2.setObjectName(u"frame_content2")
+        self.frame_content2.setFrameShape(QFrame.StyledPanel)
+        self.frame_content2.setFrameShadow(QFrame.Raised)
+
+        self.verticalLayout_9.addWidget(self.frame_content2)
+
+        self.frame_footer2 = QFrame(self.frame_body2)
+        self.frame_footer2.setObjectName(u"frame_footer2")
+        self.frame_footer2.setMinimumSize(QSize(0, 50))
+        self.frame_footer2.setMaximumSize(QSize(16777215, 50))
+        self.frame_footer2.setBaseSize(QSize(0, 50))
+        self.frame_footer2.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer2.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_3 = QHBoxLayout(self.frame_footer2)
+        self.horizontalLayout_3.setSpacing(0)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.frame_footer_left2 = QFrame(self.frame_footer2)
+        self.frame_footer_left2.setObjectName(u"frame_footer_left2")
+        self.frame_footer_left2.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer_left2.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_3.addWidget(self.frame_footer_left2)
+
+        self.frame_footer_right2 = QFrame(self.frame_footer2)
+        self.frame_footer_right2.setObjectName(u"frame_footer_right2")
+        self.frame_footer_right2.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer_right2.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_4 = QHBoxLayout(self.frame_footer_right2)
+        self.horizontalLayout_4.setSpacing(0)
+        self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.btn_upload2 = QPushButton(self.frame_footer_right2)
+        self.btn_upload2.setObjectName(u"btn_upload2")
+        self.btn_upload2.setMinimumSize(QSize(30, 40))
+        self.btn_upload2.setMaximumSize(QSize(150, 16777215))
+
+        self.horizontalLayout_4.addWidget(self.btn_upload2)
+
+        self.btn_generate2 = QPushButton(self.frame_footer_right2)
+        self.btn_generate2.setObjectName(u"btn_generate2")
+        self.btn_generate2.setMinimumSize(QSize(0, 40))
+        self.btn_generate2.setMaximumSize(QSize(200, 16777215))
+
+        self.horizontalLayout_4.addWidget(self.btn_generate2)
+
+
+        self.horizontalLayout_3.addWidget(self.frame_footer_right2)
+
+
+        self.verticalLayout_9.addWidget(self.frame_footer2)
+
+
+        self.verticalLayout_6.addWidget(self.frame_body2)
 
         self.stackedWidget.addWidget(self.page_2)
         self.page_3 = QWidget()
@@ -223,17 +369,91 @@ class Ui_MainWindow(object):
         self.page_3.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
 "color: rgb(220, 220, 220);")
         self.verticalLayout_8 = QVBoxLayout(self.page_3)
-        self.verticalLayout_8.setSpacing(0)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
-        self.verticalLayout_8.setContentsMargins(0, 0, 0, 0)
-        self.label = QLabel(self.page_3)
+        self.frame_header3 = QFrame(self.page_3)
+        self.frame_header3.setObjectName(u"frame_header3")
+        self.frame_header3.setMinimumSize(QSize(0, 50))
+        self.frame_header3.setMaximumSize(QSize(16777215, 50))
+        self.frame_header3.setBaseSize(QSize(0, 50))
+        self.frame_header3.setFrameShape(QFrame.StyledPanel)
+        self.frame_header3.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_11 = QVBoxLayout(self.frame_header3)
+        self.verticalLayout_11.setObjectName(u"verticalLayout_11")
+        self.label = QLabel(self.frame_header3)
         self.label.setObjectName(u"label")
         self.label.setFont(font1)
         self.label.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
 "color: rgb(220, 220, 220);")
         self.label.setAlignment(Qt.AlignCenter)
 
-        self.verticalLayout_8.addWidget(self.label)
+        self.verticalLayout_11.addWidget(self.label)
+
+
+        self.verticalLayout_8.addWidget(self.frame_header3)
+
+        self.frame_body3 = QFrame(self.page_3)
+        self.frame_body3.setObjectName(u"frame_body3")
+        self.frame_body3.setFrameShape(QFrame.StyledPanel)
+        self.frame_body3.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_12 = QVBoxLayout(self.frame_body3)
+        self.verticalLayout_12.setSpacing(0)
+        self.verticalLayout_12.setObjectName(u"verticalLayout_12")
+        self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
+        self.frame_content3 = QFrame(self.frame_body3)
+        self.frame_content3.setObjectName(u"frame_content3")
+        self.frame_content3.setFrameShape(QFrame.StyledPanel)
+        self.frame_content3.setFrameShadow(QFrame.Raised)
+
+        self.verticalLayout_12.addWidget(self.frame_content3)
+
+        self.frame_footer3 = QFrame(self.frame_body3)
+        self.frame_footer3.setObjectName(u"frame_footer3")
+        self.frame_footer3.setMaximumSize(QSize(16777215, 50))
+        self.frame_footer3.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer3.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_7 = QHBoxLayout(self.frame_footer3)
+        self.horizontalLayout_7.setSpacing(0)
+        self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
+        self.horizontalLayout_7.setContentsMargins(0, 0, 0, 0)
+        self.frame_footer_left3 = QFrame(self.frame_footer3)
+        self.frame_footer_left3.setObjectName(u"frame_footer_left3")
+        self.frame_footer_left3.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer_left3.setFrameShadow(QFrame.Raised)
+
+        self.horizontalLayout_7.addWidget(self.frame_footer_left3)
+
+        self.frame_footer_right3 = QFrame(self.frame_footer3)
+        self.frame_footer_right3.setObjectName(u"frame_footer_right3")
+        self.frame_footer_right3.setFrameShape(QFrame.StyledPanel)
+        self.frame_footer_right3.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_8 = QHBoxLayout(self.frame_footer_right3)
+        self.horizontalLayout_8.setSpacing(0)
+        self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
+        self.horizontalLayout_8.setContentsMargins(0, 0, 0, 0)
+        self.btn_upload3 = QPushButton(self.frame_footer_right3)
+        self.btn_upload3.setObjectName(u"btn_upload3")
+        self.btn_upload3.setMinimumSize(QSize(0, 40))
+        self.btn_upload3.setMaximumSize(QSize(150, 16777215))
+        self.btn_upload3.setBaseSize(QSize(150, 200))
+
+        self.horizontalLayout_8.addWidget(self.btn_upload3)
+
+        self.btn_generate3 = QPushButton(self.frame_footer_right3)
+        self.btn_generate3.setObjectName(u"btn_generate3")
+        self.btn_generate3.setMinimumSize(QSize(200, 40))
+        self.btn_generate3.setMaximumSize(QSize(200, 16777215))
+        self.btn_generate3.setBaseSize(QSize(200, 40))
+
+        self.horizontalLayout_8.addWidget(self.btn_generate3)
+
+
+        self.horizontalLayout_7.addWidget(self.frame_footer_right3)
+
+
+        self.verticalLayout_12.addWidget(self.frame_footer3)
+
+
+        self.verticalLayout_8.addWidget(self.frame_body3)
 
         self.stackedWidget.addWidget(self.page_3)
 
@@ -261,9 +481,15 @@ class Ui_MainWindow(object):
         self.btn_page_1.setText(QCoreApplication.translate("MainWindow", u"Algo 1", None))
         self.btn_page_2.setText(QCoreApplication.translate("MainWindow", u"Algo 2", None))
         self.btn_page_3.setText(QCoreApplication.translate("MainWindow", u"Algo 3", None))
-        self.label_1.setText(QCoreApplication.translate("MainWindow", u"Unbounded Interleaved-state Recurrent Neural Networks (UIS-RNN)", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Unbounded Interleaved-state Recurrent Neural Networks (UIS-RNN)", None))
+        self.btn_upload1.setText(QCoreApplication.translate("MainWindow", u"Upload File", None))
+        self.btn_generate1.setText(QCoreApplication.translate("MainWindow", u"Generate Transcript", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"LSTM-based d-vector audio embeddings ", None))
+        self.btn_upload2.setText(QCoreApplication.translate("MainWindow", u"Upload File", None))
+        self.btn_generate2.setText(QCoreApplication.translate("MainWindow", u"Generate Transcript", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Variational Bayes HMM over x-vector\n"
 "", None))
+        self.btn_upload3.setText(QCoreApplication.translate("MainWindow", u"Upload File", None))
+        self.btn_generate3.setText(QCoreApplication.translate("MainWindow", u"Generate Transcript", None))
     # retranslateUi
 

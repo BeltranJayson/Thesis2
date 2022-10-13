@@ -1,11 +1,3 @@
-################################################################################
-##
-## BY: WANDERSON M.PIMENTA
-## PROJECT MADE WITH: Qt Designer and PySide2
-## V: 1.0.0
-##
-################################################################################
-
 import sys
 import platform
 from PySide2 import QtCore, QtGui, QtWidgets
@@ -48,13 +40,17 @@ class MainWindow(QMainWindow):
         # PAGE 3
         self.ui.btn_page_3.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_3))
 
-
+        self.ui.btn_upload1.clicked.connect(self.browsefiles)
+        self.ui.btn_upload2.clicked.connect(self.browsefiles)
+        self.ui.btn_upload3.clicked.connect(self.browsefiles)
         ## SHOW ==> MAIN WINDOW
         ########################################################################
         self.show()
         ## ==> END ##
 
-        # MAIN WINDOW LABEL
+    def browsefiles(self):
+        QMainWindow.getOpenFileName(self, 'open file', '')
+    
         
 
 
