@@ -375,7 +375,7 @@ QPushButton:hover {
        <item>
         <widget class="QFrame" name="frame_pages">
          <property name="styleSheet">
-          <string notr="true">background-color:rgb(34, 48, 60);	
+          <string notr="true">background-color: #585a8b;
 color: rgb(220, 220, 220);</string>
          </property>
          <property name="frameShape">
@@ -395,7 +395,7 @@ color: rgb(220, 220, 220);</string>
             </property>
             <widget class="QWidget" name="page_1">
              <property name="styleSheet">
-              <string notr="true">background-color:rgb(34, 48, 60);	
+              <string notr="true">background-color: #585a8b;
 color: rgb(220, 220, 220);</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -431,11 +431,12 @@ color: rgb(220, 220, 220);</string>
                    <property name="font">
                     <font>
                      <pointsize>20</pointsize>
+                     <weight>50</weight>
+                     <bold>false</bold>
                     </font>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color:rgb(34, 48, 60);	
-color: rgb(220, 220, 220);</string>
+                    <string notr="true">color: #FFC0CB;</string>
                    </property>
                    <property name="text">
                     <string>Unbounded Interleaved-state Recurrent Neural Networks (UIS-RNN)</string>
@@ -471,12 +472,44 @@ color: rgb(220, 220, 220);</string>
                  </property>
                  <item>
                   <widget class="QFrame" name="frame_content1">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(56, 58, 89);</string>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
+                   <widget class="QLabel" name="label_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>148</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(220, 220, 220);</string>
+                    </property>
+                    <property name="text">
+                     <string>Sample Transcript...</string>
+                    </property>
+                   </widget>
                   </widget>
                  </item>
                  <item>
@@ -569,6 +602,17 @@ color: rgb(220, 220, 220);</string>
                            <height>16777215</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI</family>
+                           <pointsize>10</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color:#6272A4;</string>
+                         </property>
                          <property name="text">
                           <string>Upload File</string>
                          </property>
@@ -588,6 +632,17 @@ color: rgb(220, 220, 220);</string>
                            <height>16777215</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI</family>
+                           <pointsize>10</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color:#6272A4;</string>
+                         </property>
                          <property name="text">
                           <string>Generate Transcript</string>
                          </property>
@@ -606,7 +661,7 @@ color: rgb(220, 220, 220);</string>
             </widget>
             <widget class="QWidget" name="page_2">
              <property name="styleSheet">
-              <string notr="true">background-color:rgb(34, 48, 60);	
+              <string notr="true">background-color: #585a8b;
 color: rgb(220, 220, 220);</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -645,8 +700,7 @@ color: rgb(220, 220, 220);</string>
                     </font>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color:rgb(34, 48, 60);	
-color: rgb(220, 220, 220);</string>
+                    <string notr="true">color: #FFC0CB;</string>
                    </property>
                    <property name="text">
                     <string>LSTM-based d-vector audio embeddings </string>
@@ -685,12 +739,39 @@ color: rgb(220, 220, 220);</string>
                  </property>
                  <item>
                   <widget class="QFrame" name="frame_content2">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(56, 58, 89);</string>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
+                   <widget class="QLabel" name="label_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>141</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(220, 220, 220);</string>
+                    </property>
+                    <property name="text">
+                     <string>Sample Transcript ...</string>
+                    </property>
+                   </widget>
                   </widget>
                  </item>
                  <item>
@@ -783,6 +864,17 @@ color: rgb(220, 220, 220);</string>
                            <height>16777215</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI</family>
+                           <pointsize>10</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color:#6272A4;</string>
+                         </property>
                          <property name="text">
                           <string>Upload File</string>
                          </property>
@@ -802,6 +894,17 @@ color: rgb(220, 220, 220);</string>
                            <height>16777215</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI</family>
+                           <pointsize>10</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color:#6272A4;</string>
+                         </property>
                          <property name="text">
                           <string>Generate Transcript</string>
                          </property>
@@ -820,8 +923,9 @@ color: rgb(220, 220, 220);</string>
             </widget>
             <widget class="QWidget" name="page_3">
              <property name="styleSheet">
-              <string notr="true">background-color:rgb(34, 48, 60);	
-color: rgb(220, 220, 220);</string>
+              <string notr="true">background-color: #585a8b;
+color: rgb(220, 220, 220);
+</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_8">
               <item>
@@ -859,8 +963,7 @@ color: rgb(220, 220, 220);</string>
                     </font>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color:rgb(34, 48, 60);	
-color: rgb(220, 220, 220);</string>
+                    <string notr="true">color: #FFC0CB;</string>
                    </property>
                    <property name="text">
                     <string>Variational Bayes HMM over x-vector
@@ -900,12 +1003,34 @@ color: rgb(220, 220, 220);</string>
                  </property>
                  <item>
                   <widget class="QFrame" name="frame_content3">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(56, 58, 89);</string>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
+                   <widget class="QLabel" name="label_6">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>151</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Segoe UI</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Sample Transcript ...</string>
+                    </property>
+                   </widget>
                   </widget>
                  </item>
                  <item>
@@ -992,6 +1117,17 @@ color: rgb(220, 220, 220);</string>
                            <height>200</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI</family>
+                           <pointsize>10</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color:#6272A4;</string>
+                         </property>
                          <property name="text">
                           <string>Upload File</string>
                          </property>
@@ -1016,6 +1152,17 @@ color: rgb(220, 220, 220);</string>
                            <width>200</width>
                            <height>40</height>
                           </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <family>Segoe UI</family>
+                           <pointsize>10</pointsize>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color:#6272A4;</string>
                          </property>
                          <property name="text">
                           <string>Generate Transcript</string>

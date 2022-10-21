@@ -1,9 +1,14 @@
+from importlib.resources import path
 import sys
 import platform
+from tkinter.filedialog import FileDialog, LoadFileDialog
+from unittest.mock import patch
+from PyQt5.QtWidgets import QDialog, QApplication, QFileDialog
 from PySide2 import QtCore, QtGui, QtWidgets
 from PySide2.QtCore import (QCoreApplication, QPropertyAnimation, QDate, QDateTime, QMetaObject, QObject, QPoint, QRect, QSize, QTime, QUrl, Qt, QEvent)
 from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFontDatabase, QIcon, QKeySequence, QLinearGradient, QPalette, QPainter, QPixmap, QRadialGradient)
 from PySide2.QtWidgets import *
+
 
 ## ==> SPLASH SCREEN
 from ui_splash_screen import Ui_SplashScreen
@@ -48,12 +53,13 @@ class MainWindow(QMainWindow):
         self.show()
         ## ==> END ##
 
+
     def browsefiles(self):
-        QMainWindow.getOpenFileName(self, 'open file', '')
-    
+        QFileDialog.getOpenFileName(self, 'Open file', '', 'Audio/Video (*.mp3, *.wav *.mkv *.mp4)')
+
+
         
-
-
+        
 # SPLASH SCREEN
 class SplashScreen(QMainWindow):
     def __init__(self):
@@ -129,3 +135,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = SplashScreen()
     sys.exit(app.exec_())
+

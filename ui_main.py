@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainexAGwH.ui'
+## Form generated from reading UI file 'mainxhWyMv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -170,7 +170,7 @@ class Ui_MainWindow(object):
 
         self.frame_pages = QFrame(self.Content)
         self.frame_pages.setObjectName(u"frame_pages")
-        self.frame_pages.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
+        self.frame_pages.setStyleSheet(u"background-color: #585a8b;\n"
 "color: rgb(220, 220, 220);")
         self.frame_pages.setFrameShape(QFrame.StyledPanel)
         self.frame_pages.setFrameShadow(QFrame.Raised)
@@ -181,7 +181,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.setStyleSheet(u"")
         self.page_1 = QWidget()
         self.page_1.setObjectName(u"page_1")
-        self.page_1.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
+        self.page_1.setStyleSheet(u"background-color: #585a8b;\n"
 "color: rgb(220, 220, 220);")
         self.verticalLayout_7 = QVBoxLayout(self.page_1)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
@@ -198,9 +198,10 @@ class Ui_MainWindow(object):
         self.label_3.setObjectName(u"label_3")
         font1 = QFont()
         font1.setPointSize(20)
+        font1.setBold(False)
+        font1.setWeight(50)
         self.label_3.setFont(font1)
-        self.label_3.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
-"color: rgb(220, 220, 220);")
+        self.label_3.setStyleSheet(u"color: #FFC0CB;")
 
         self.verticalLayout_13.addWidget(self.label_3)
 
@@ -217,8 +218,22 @@ class Ui_MainWindow(object):
         self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
         self.frame_content1 = QFrame(self.frame_body1)
         self.frame_content1.setObjectName(u"frame_content1")
+        font2 = QFont()
+        font2.setPointSize(10)
+        self.frame_content1.setFont(font2)
+        self.frame_content1.setStyleSheet(u"background-color: rgb(56, 58, 89);")
         self.frame_content1.setFrameShape(QFrame.StyledPanel)
         self.frame_content1.setFrameShadow(QFrame.Raised)
+        self.label_4 = QLabel(self.frame_content1)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(10, 10, 148, 21))
+        font3 = QFont()
+        font3.setFamily(u"Segoe UI")
+        font3.setPointSize(12)
+        font3.setBold(False)
+        font3.setWeight(50)
+        self.label_4.setFont(font3)
+        self.label_4.setStyleSheet(u"color: rgb(220, 220, 220);")
 
         self.verticalLayout_10.addWidget(self.frame_content1)
 
@@ -252,6 +267,8 @@ class Ui_MainWindow(object):
         self.btn_upload1.setObjectName(u"btn_upload1")
         self.btn_upload1.setMinimumSize(QSize(0, 40))
         self.btn_upload1.setMaximumSize(QSize(150, 16777215))
+        self.btn_upload1.setFont(font)
+        self.btn_upload1.setStyleSheet(u"background-color:#6272A4;")
 
         self.horizontalLayout_6.addWidget(self.btn_upload1)
 
@@ -259,6 +276,8 @@ class Ui_MainWindow(object):
         self.btn_generate1.setObjectName(u"btn_generate1")
         self.btn_generate1.setMinimumSize(QSize(0, 40))
         self.btn_generate1.setMaximumSize(QSize(200, 16777215))
+        self.btn_generate1.setFont(font)
+        self.btn_generate1.setStyleSheet(u"background-color:#6272A4;")
 
         self.horizontalLayout_6.addWidget(self.btn_generate1)
 
@@ -274,7 +293,7 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.page_1)
         self.page_2 = QWidget()
         self.page_2.setObjectName(u"page_2")
-        self.page_2.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
+        self.page_2.setStyleSheet(u"background-color: #585a8b;\n"
 "color: rgb(220, 220, 220);")
         self.verticalLayout_6 = QVBoxLayout(self.page_2)
         self.verticalLayout_6.setObjectName(u"verticalLayout_6")
@@ -289,9 +308,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_14.setObjectName(u"verticalLayout_14")
         self.label_2 = QLabel(self.frame_head2)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setFont(font1)
-        self.label_2.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
-"color: rgb(220, 220, 220);")
+        font4 = QFont()
+        font4.setPointSize(20)
+        self.label_2.setFont(font4)
+        self.label_2.setStyleSheet(u"color: #FFC0CB;")
         self.label_2.setAlignment(Qt.AlignCenter)
 
         self.verticalLayout_14.addWidget(self.label_2)
@@ -309,8 +329,14 @@ class Ui_MainWindow(object):
         self.verticalLayout_9.setContentsMargins(0, 0, 0, 0)
         self.frame_content2 = QFrame(self.frame_body2)
         self.frame_content2.setObjectName(u"frame_content2")
+        self.frame_content2.setStyleSheet(u"background-color: rgb(56, 58, 89);")
         self.frame_content2.setFrameShape(QFrame.StyledPanel)
         self.frame_content2.setFrameShadow(QFrame.Raised)
+        self.label_5 = QLabel(self.frame_content2)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(10, 10, 141, 31))
+        self.label_5.setFont(font3)
+        self.label_5.setStyleSheet(u"color: rgb(220, 220, 220);")
 
         self.verticalLayout_9.addWidget(self.frame_content2)
 
@@ -344,6 +370,8 @@ class Ui_MainWindow(object):
         self.btn_upload2.setObjectName(u"btn_upload2")
         self.btn_upload2.setMinimumSize(QSize(30, 40))
         self.btn_upload2.setMaximumSize(QSize(150, 16777215))
+        self.btn_upload2.setFont(font)
+        self.btn_upload2.setStyleSheet(u"background-color:#6272A4;")
 
         self.horizontalLayout_4.addWidget(self.btn_upload2)
 
@@ -351,6 +379,8 @@ class Ui_MainWindow(object):
         self.btn_generate2.setObjectName(u"btn_generate2")
         self.btn_generate2.setMinimumSize(QSize(0, 40))
         self.btn_generate2.setMaximumSize(QSize(200, 16777215))
+        self.btn_generate2.setFont(font)
+        self.btn_generate2.setStyleSheet(u"background-color:#6272A4;")
 
         self.horizontalLayout_4.addWidget(self.btn_generate2)
 
@@ -366,8 +396,9 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.page_2)
         self.page_3 = QWidget()
         self.page_3.setObjectName(u"page_3")
-        self.page_3.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
-"color: rgb(220, 220, 220);")
+        self.page_3.setStyleSheet(u"background-color: #585a8b;\n"
+"color: rgb(220, 220, 220);\n"
+"")
         self.verticalLayout_8 = QVBoxLayout(self.page_3)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
         self.frame_header3 = QFrame(self.page_3)
@@ -381,9 +412,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.label = QLabel(self.frame_header3)
         self.label.setObjectName(u"label")
-        self.label.setFont(font1)
-        self.label.setStyleSheet(u"background-color:rgb(34, 48, 60);	\n"
-"color: rgb(220, 220, 220);")
+        self.label.setFont(font4)
+        self.label.setStyleSheet(u"color: #FFC0CB;")
         self.label.setAlignment(Qt.AlignCenter)
 
         self.verticalLayout_11.addWidget(self.label)
@@ -401,8 +431,16 @@ class Ui_MainWindow(object):
         self.verticalLayout_12.setContentsMargins(0, 0, 0, 0)
         self.frame_content3 = QFrame(self.frame_body3)
         self.frame_content3.setObjectName(u"frame_content3")
+        self.frame_content3.setStyleSheet(u"background-color: rgb(56, 58, 89);")
         self.frame_content3.setFrameShape(QFrame.StyledPanel)
         self.frame_content3.setFrameShadow(QFrame.Raised)
+        self.label_6 = QLabel(self.frame_content3)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(10, 10, 151, 41))
+        font5 = QFont()
+        font5.setFamily(u"Segoe UI")
+        font5.setPointSize(12)
+        self.label_6.setFont(font5)
 
         self.verticalLayout_12.addWidget(self.frame_content3)
 
@@ -435,6 +473,8 @@ class Ui_MainWindow(object):
         self.btn_upload3.setMinimumSize(QSize(0, 40))
         self.btn_upload3.setMaximumSize(QSize(150, 16777215))
         self.btn_upload3.setBaseSize(QSize(150, 200))
+        self.btn_upload3.setFont(font)
+        self.btn_upload3.setStyleSheet(u"background-color:#6272A4;")
 
         self.horizontalLayout_8.addWidget(self.btn_upload3)
 
@@ -443,6 +483,8 @@ class Ui_MainWindow(object):
         self.btn_generate3.setMinimumSize(QSize(200, 40))
         self.btn_generate3.setMaximumSize(QSize(200, 16777215))
         self.btn_generate3.setBaseSize(QSize(200, 40))
+        self.btn_generate3.setFont(font)
+        self.btn_generate3.setStyleSheet(u"background-color:#6272A4;")
 
         self.horizontalLayout_8.addWidget(self.btn_generate3)
 
@@ -482,13 +524,16 @@ class Ui_MainWindow(object):
         self.btn_page_2.setText(QCoreApplication.translate("MainWindow", u"Algo 2", None))
         self.btn_page_3.setText(QCoreApplication.translate("MainWindow", u"Algo 3", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Unbounded Interleaved-state Recurrent Neural Networks (UIS-RNN)", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Sample Transcript...", None))
         self.btn_upload1.setText(QCoreApplication.translate("MainWindow", u"Upload File", None))
         self.btn_generate1.setText(QCoreApplication.translate("MainWindow", u"Generate Transcript", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"LSTM-based d-vector audio embeddings ", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Sample Transcript ...", None))
         self.btn_upload2.setText(QCoreApplication.translate("MainWindow", u"Upload File", None))
         self.btn_generate2.setText(QCoreApplication.translate("MainWindow", u"Generate Transcript", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Variational Bayes HMM over x-vector\n"
 "", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"Sample Transcript ...", None))
         self.btn_upload3.setText(QCoreApplication.translate("MainWindow", u"Upload File", None))
         self.btn_generate3.setText(QCoreApplication.translate("MainWindow", u"Generate Transcript", None))
     # retranslateUi
